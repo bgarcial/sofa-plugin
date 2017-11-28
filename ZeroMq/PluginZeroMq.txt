@@ -1,0 +1,19 @@
+
+************************************
+*         PluginZeroMq.txt        *
+************************************
+
+
+
+AUTHOR :
+ - SIM Design
+
+
+
+
+LICENCE :
+ - None
+
+
+
+OTHER COMMENTS :
