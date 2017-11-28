@@ -10,7 +10,7 @@ set(SOURCE_FILES
     main.cpp
 )
 
-set(README_FILES README.md)
+set(README_FILES PluginZeroMq.txt)
 
 find_package(SofaFramework REQUIRED)
 
