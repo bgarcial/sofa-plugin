@@ -1,3 +1,4 @@
+#include "initZeroMq.h"
 #include <sofa/helper/system/config.h>
 
 #ifndef WIN32
@@ -40,7 +41,8 @@ extern "C" {
 
 void initExternalModule()
 {
-    // Init zeroMQ plugin
+    // Here is the place to write initialisation code, that will be executed
+    // before any component is created.
 }
 
 const char* getModuleName()
@@ -65,7 +67,8 @@ const char* getModuleDescription()
 
 const char* getModuleComponentList()
 {
-    return "Connections and send message methods ";
+    // Comma-separated list of the components in this plugin, empty for now
+    return "";
 }
 
 }
