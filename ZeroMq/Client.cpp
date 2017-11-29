@@ -16,11 +16,6 @@ Client::Client(){
 void Client::setupConnection(){
     gettimeofday(&t_before, NULL);
 
-    // cout << "Connecting to python zeroMQ server ..."<<endl;
-    // zmq::context_t context(1);
-    // zmq::socket_t socket (context, ZMQ_REQ);
-    // socket.connect("tcp://localhost:5555");
-
     zmq::message_t request (33);
     memcpy(request.data(), "Hello Python server, how are you?", 33);
     socket.send(request);
